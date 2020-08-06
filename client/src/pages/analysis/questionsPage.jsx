@@ -107,7 +107,7 @@ function QuestionsPage(props){
         </Col>
       </Row>
       <Row>
-        <Col lg="8" md="12" sm="12" xs="12">
+        <Col lg="10" md="12" sm="12" xs="12">
             <QuestionsAnswsersStat
              numberOfAnswers ={props. numberOfAnswers } />      
         </Col>

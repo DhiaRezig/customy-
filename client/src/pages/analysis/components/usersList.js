@@ -27,7 +27,7 @@ import {
         let bodyElement= Object.values(element);
         bodyList.push({ ...bodyElement }); 
     })
-    const title = "Most Active Users";
+    const title = "Users";
     let content = {
         startY: 50,
         head:[headers],

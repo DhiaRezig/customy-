@@ -76,8 +76,8 @@ const DisplayStat = (props) => {
     });
   }                                                                       
   return(
-    <div style={{ margin: "auto", width: 350 }}>
-    <XYPlot xType="ordinal" height={200} width={350}>
+    <div style={{ margin: "auto", width:600 }}>
+    <XYPlot xType="ordinal" height={200} width={680}>
       <HorizontalGridLines />
       <VerticalBarSeries data={statData} color={"#33ccff"}/>
       <XAxis />

@@ -1,5 +1,11 @@
 version: '2'
 services:
+  client:
+    build: ./client
+    ports:
+      - '8084:80'
+    depends_on:
+      - server
   server:
     build: ./server
     ports:
@@ -10,3 +16,4 @@ services:
     image: mongo
     ports:
       - '27017:27017'
+

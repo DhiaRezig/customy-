@@ -45,7 +45,7 @@ const Latest= (props) => {
              '{props.latestPublishedForm.title}' from the study '{props.latestPublishedForm.studyName}'
             </ListGroupItem>
             <ListGroupItem>
-              <MdPieChart size={25} color={primaryColor} /> Latest answer was from '{props.latestUserResponse.userEmail}' responding by '{props.latestUserResponse.text}' for the question '{props.latestUserResponse.questionText}' askend in '{props.latestUserResponse.formTitle}' in the study '{props.latestUserResponse.studyName}'             
+              <MdPieChart size={25} color={primaryColor} /> Latest answer was from '{props.latestUserResponse.userEmail}' responding by '{props.latestUserResponse.text}' for the question '{props.latestUserResponse.questionText}' asked in '{props.latestUserResponse.formTitle}' in the study '{props.latestUserResponse.studyName}'             
             </ListGroupItem>
           </ListGroup>
         </Card>
